@@ -1,0 +1,181 @@
+Resumen del Análisis - Fecha: 16-11-2023
+
+Variable: id
+Tipo de Variable: int64
+Número de Valores Únicos: 7456
+Número de Valores Nulos: 0
+Número de Valores Cero: 1
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 0
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    7456.000000
+mean     3784.926770
+std      2185.822361
+min         0.000000
+25%      1889.750000
+50%      3783.500000
+75%      5682.250000
+max      7559.000000
+Anomalía: Esta variable tiene un alto porcentaje de valores únicos.
+
+Variable: date
+Tipo de Variable: object
+Número de Valores Únicos: 84
+Número de Valores Nulos: 0
+Frecuencia de las 5 Categorías Más Frecuentes:
+31/12/18: 90
+31/01/16: 90
+30/11/14: 90
+28/02/18: 90
+31/08/14: 90
+No se proporciona información adicional para variables no numéricas.
+
+Variable: city
+Tipo de Variable: object
+Número de Valores Únicos: 5
+Número de Valores Nulos: 0
+Frecuencia de Categorías:
+Athens: 2482
+Thessaloniki: 1246
+Patra: 1245
+Larisa: 1242
+Irakleion: 1241
+No se proporciona información adicional para variables no numéricas.
+
+Variable: lat
+Tipo de Variable: float64
+Número de Valores Únicos: 6
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 7450
+Número de Outliers: 1241
+Estadísticas Descriptivas:
+count    7456.000000
+mean       38.300616
+std         1.650030
+min        35.327870
+25%        37.962450
+50%        38.244440
+75%        39.636890
+max        40.643610
+
+Variable: long
+Tipo de Variable: float64
+Número de Valores Únicos: 6
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 7450
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    7456.000000
+mean       23.270170
+std         1.086592
+min        21.734440
+25%        22.417610
+50%        22.930860
+75%        23.716220
+max        25.143410
+
+Variable: pop
+Tipo de Variable: int64
+Número de Valores Únicos: 35
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 7421
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count      7456.000000
+mean     355042.733637
+std      232336.703020
+min      134219.000000
+25%      141732.000000
+50%      257501.500000
+75%      665102.000000
+max      672130.000000
+
+Variable: shop
+Tipo de Variable: object
+Número de Valores Únicos: 6
+Número de Valores Nulos: 0
+Frecuencia de las 5 Categorías Más Frecuentes:
+shop_4: 1246
+shop_6: 1245
+shop_5: 1242
+shop_1: 1241
+shop_2: 1241
+No se proporciona información adicional para variables no numéricas.
+
+Variable: brand
+Tipo de Variable: object
+Número de Valores Únicos: 5
+Número de Valores Nulos: 0
+Frecuencia de Categorías:
+kinder-cola: 1495
+adult-cola: 1493
+lemon-boost: 1493
+gazoza: 1491
+orange-power: 1484
+No se proporciona información adicional para variables no numéricas.
+
+Variable: container
+Tipo de Variable: object
+Número de Valores Únicos: 3
+Número de Valores Nulos: 0
+Frecuencia de Categorías:
+glass: 2486
+plastic: 2485
+can: 2485
+No se proporciona información adicional para variables no numéricas.
+
+Variable: capacity
+Tipo de Variable: object
+Número de Valores Únicos: 3
+Número de Valores Nulos: 0
+Frecuencia de Categorías:
+330ml: 2486
+500ml: 2485
+1.5lt: 2485
+No se proporciona información adicional para variables no numéricas.
+
+Variable: price
+Tipo de Variable: float64
+Número de Valores Únicos: 402
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 7054
+Número de Outliers: 467
+Estadísticas Descriptivas:
+count    7456.000000
+mean        1.197193
+std         0.818175
+min         0.110000
+25%         0.620000
+50%         0.930000
+75%         1.510000
+max         4.790000
+Anomalía: Esta variable tiene un alto porcentaje de valores únicos.
+
+Variable: quantity
+Tipo de Variable: int64
+Número de Valores Únicos: 6906
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 550
+Número de Outliers: 259
+Estadísticas Descriptivas:
+count      7456.000000
+mean      29408.428380
+std       17652.985675
+min        2953.000000
+25%       16572.750000
+50%       25294.500000
+75%       37699.000000
+max      145287.000000
+Anomalía: Esta variable tiene un alto porcentaje de valores únicos.
+
