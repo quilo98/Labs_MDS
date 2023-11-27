@@ -1,0 +1,326 @@
+Resumen del Análisis - Fecha: 20-11-2023
+
+Variable: Age
+Tipo de Variable: float64
+Número de Valores Únicos: 13
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70679
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         8.584055
+std          2.852153
+min          1.000000
+25%          7.000000
+50%          9.000000
+75%         11.000000
+max         13.000000
+
+Variable: Sex
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 38386
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.456997
+std          0.498151
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+
+Variable: HighChol
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 33529
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.525703
+std          0.499342
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: CholCheck
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 1749
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 1749
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.975259
+std          0.155336
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: BMI
+Tipo de Variable: float64
+Número de Valores Únicos: 80
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70612
+Número de Outliers: 2181
+Estadísticas Descriptivas:
+count    70692.000000
+mean        29.856985
+std          7.113954
+min         12.000000
+25%         25.000000
+50%         29.000000
+75%         33.000000
+max         98.000000
+
+Variable: Smoker
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 37094
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.475273
+std          0.499392
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+
+Variable: HeartDiseaseorAttack
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 60243
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 10449
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.147810
+std          0.354914
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+
+Variable: PhysActivity
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 20993
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.703036
+std          0.456924
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: Fruits
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 27443
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.611795
+std          0.487345
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: Veggies
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 14932
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 14932
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.788774
+std          0.408181
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: HvyAlcoholConsump
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 67672
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 3020
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.042721
+std          0.202228
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+
+Variable: GenHlth
+Tipo de Variable: float64
+Número de Valores Únicos: 5
+Número de Valores Nulos: 0
+Número de Valores Cero: 0
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70687
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         2.837082
+std          1.113565
+min          1.000000
+25%          2.000000
+50%          3.000000
+75%          4.000000
+max          5.000000
+
+Variable: MentHlth
+Tipo de Variable: float64
+Número de Valores Únicos: 31
+Número de Valores Nulos: 0
+Número de Valores Cero: 48091
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70661
+Número de Outliers: 11816
+Estadísticas Descriptivas:
+count    70692.000000
+mean         3.752037
+std          8.155627
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          2.000000
+max         30.000000
+
+Variable: PhysHlth
+Tipo de Variable: float64
+Número de Valores Únicos: 31
+Número de Valores Nulos: 0
+Número de Valores Cero: 39915
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70661
+Número de Outliers: 10624
+Estadísticas Descriptivas:
+count    70692.000000
+mean         5.810417
+std         10.062261
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          6.000000
+max         30.000000
+
+Variable: DiffWalk
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 52826
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.252730
+std          0.434581
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+
+Variable: Stroke
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 66297
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 4395
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.062171
+std          0.241468
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          1.000000
+
+Variable: HighBP
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 30860
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.563458
+std          0.495960
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+
+Variable: Diabetes
+Tipo de Variable: float64
+Número de Valores Únicos: 2
+Número de Valores Nulos: 0
+Número de Valores Cero: 35346
+Número de Valores Negativos: 0
+Número de Valores Duplicados: 70690
+Número de Outliers: 0
+Estadísticas Descriptivas:
+count    70692.000000
+mean         0.500000
+std          0.500004
+min          0.000000
+25%          0.000000
+50%          0.500000
+75%          1.000000
+max          1.000000
+
